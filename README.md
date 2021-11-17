@@ -17,23 +17,23 @@ npm start
 
 ## Home page
 
-![image](Homepage.png)
+![image](https://res.cloudinary.com/retro-game-stop/image/upload/v1637146506/React%20profile/rj8yuvbd9dwykjor1ob1.png)
 
 ## Sidebar
 
-![image](Sidebar.png)
+![image](https://res.cloudinary.com/retro-game-stop/image/upload/v1637146505/React%20profile/nsugmwcd60w7oyo2jtxn.png)
 
 ## Resume
 
-![image](https://user-images.githubusercontent.com/19981097/86141072-6fa3cd00-bb13-11ea-98d4-459d59af8a15.png)
+![image](https://res.cloudinary.com/retro-game-stop/image/upload/v1637146505/React%20profile/cexrgzrcpqisdtctczrs.png)
 
 ## Portfolio
 
-![image](https://user-images.githubusercontent.com/19981097/86141235-9f52d500-bb13-11ea-9d7b-44b982a6fd3f.png)
+![image](https://res.cloudinary.com/retro-game-stop/image/upload/v1637146505/React%20profile/hwhn9emt31jmfau6g53u.png)
 
 ## Contact
 
-![image](https://user-images.githubusercontent.com/19981097/86141330-bf829400-bb13-11ea-9070-ecd62027078f.png)
+![image](https://res.cloudinary.com/retro-game-stop/image/upload/v1637146504/React%20profile/rklnypuome4c2ekjgybi.png)
 
 ## Author
 
