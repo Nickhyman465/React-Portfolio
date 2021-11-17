@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
   },
   menuSliderContainer: {
     width: 250,
-    background: "#511",
+    background: "skyBlue",
     height: "100%",
   },
   avatar: {
@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(13),
   },
   listItem: {
-    color: "tan",
+    color: "black",
   },
 }));
 
@@ -99,7 +99,7 @@ const Navbar = () => {
           </Toolbar>
         </AppBar>
       </Box>
-      <Drawer open={open} anchor="right" onClose={() => setOpen(false)}>
+      <Drawer open={open} anchor="left" onClose={() => setOpen(false)}>
         {sideList()}
         <Footer />
       </Drawer>

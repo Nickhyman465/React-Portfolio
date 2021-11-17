@@ -1,4 +1,4 @@
-import React from "react";
+import React,  { useRef } from "react";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
 import Box from "@material-ui/core/Box";
 import TextField from "@material-ui/core/TextField";
@@ -7,6 +7,8 @@ import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 
 import Send from "@material-ui/icons/Send";
+
+import emailjs from 'emailjs-com';
 
 const useStyles = makeStyles((theme) => ({
   contactContainer: {
@@ -61,12 +63,27 @@ const InputField = withStyles({
   },
 })(TextField);
 
+
+
+
 const Contact = () => {
   const classes = useStyles();
+  const form = useRef()
+  function sendEmail(e) { 
+    e.preventDefault();
+    
+    emailjs.sendForm('gmail', 'service_qlr2aph', form.current, 'user_DB3jW0GOfKuRlcpx3mNWl')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  
+  }
   return (
     <Box component="div" className={classes.contactContainer}>
       <Grid container justify="center">
-        <Box component="form" className={classes.form}>
+        <Box component="form" className={classes.form} ref={form} onSubmit={() => sendEmail()}>
           <Typography variant="h5" className={classes.heading}>
             Hire or Contact me...
           </Typography>
@@ -93,6 +110,7 @@ const Contact = () => {
           />
           <Button
             variant="outlined"
+            type="submit"
             fullWidth={true}
             endIcon={<Send />}
             className={classes.button}
