@@ -19,7 +19,7 @@ import project6 from "../images/Coming Soon.jpg";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: "#233",
+    background: "#c7839c",
     height: "100%",
   },
   cardContainer: {
