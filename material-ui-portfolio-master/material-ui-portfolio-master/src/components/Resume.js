@@ -148,7 +148,7 @@ const Resume = () => {
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2014
+          2017-20
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -156,27 +156,25 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            html & css
+            Senior Guest Advisor
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Gamestop Inc.
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            I ran day-to-day customer interactions, managed on-duty employees,
+             and trained new staff members
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2015
+          2020
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -184,27 +182,27 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Fullstack Javascript
+            Sony Home Theater Representative & Digital Sales Team Lead
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Bestbuy
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Actively promoted Sony home theater products and educated people mainly
+            on what Sony had to offer. I trained staff members on all Sony home theater 
+            products. I spearheaded the digital sales front for bestbuy's home theater
+            departments and trained my stores digital sales team members.
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2017
+          2021
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -212,20 +210,20 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Django & React
+            Planogram Analyst
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Ahold Delhaize
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            My main role requires me to make use of planogram creation Software, 
+            so that I can build planograms for stores under Ahold Delhaize. I work 
+            closely with different brands to help build planograms that encompass 
+            a variety of options for the customer's needs.
           </Typography>
         </Box>
       </Box>
