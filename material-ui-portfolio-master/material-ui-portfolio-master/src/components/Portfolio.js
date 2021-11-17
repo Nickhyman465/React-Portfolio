@@ -15,7 +15,7 @@ import project2 from "../images/html-css-javascript.jpg";
 import project3 from "../images/javascript-fullstack.jpg";
 import project4 from "../images/mern-stack.jpg";
 import project5 from "../images/react-redux.jpg";
-import project6 from "../images/react.png";
+import project6 from "../images/Coming Soon.jpg";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -30,51 +30,60 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "Project 1",
+    name: "Weather-Dashboard",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
     consequatur magni quod nesciunt necessitatibus molestiae non
     eligendi, magnam est aliquam recusandae? Magnam soluta minus
     iste alias sunt veritatis nisi dolores!`,
+    shareLink: "https://github.com/Nickhyman465/Weather-Dashboard",
+    demoLink: "https://github.com/Nickhyman465/Weather-Dashboard",
     image: project1,
   },
   {
-    name: "Project 2",
+    name: "Recipe-Finder",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
+    shareLink: "https://github.com/Nickhyman465/recipe-finder",
+    demoLink: "https://nickhyman465.github.io/recipe-finder/",
     image: project2,
   },
   {
-    name: "Project 3",
+    name: "Retro-Game-Market",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
+    shareLink: "https://github.com/Nickhyman465/Retro-Game-Market",
+    demoLink: "https://retro-game-market.herokuapp.com/",
     image: project3,
   },
   {
-    name: "Project 4",
+    name: "Book-Search-Engine",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
+    shareLink: "https://github.com/Nickhyman465/Book-Search-Engine",
+    demoLink: "https://books-on-demand.herokuapp.com/",
     image: project4,
   },
   {
-    name: "Project 5",
+    name: "Redux-Store",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
+    shareLink: "https://github.com/Nickhyman465/Redux-Store",
+    demoLink: "https://redux-refractor.herokuapp.com/",
     image: project5,
   },
   {
-    name: "Project 6",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
+    name: "VodU",
+    description: `Video game peer edit website coming soon!`,
+    shareLink: "",
+    demoLink: "",
     image: project6,
   },
 ];
@@ -105,10 +114,10 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
-                  Share
+                <Button size="small" color="primary" href={project.shareLink} target="_blank">
+                  GitHub
                 </Button>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary" href={project.demoLink} target="_blank">
                   Live Demo
                 </Button>
               </CardActions>

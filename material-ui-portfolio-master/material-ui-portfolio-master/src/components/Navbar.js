@@ -18,7 +18,7 @@ import Home from "@material-ui/icons/Home";
 import Apps from "@material-ui/icons/Apps";
 import ContactMail from "@material-ui/icons/ContactMail";
 import { makeStyles } from "@material-ui/core/styles";
-import avatar from "../avatar.png";
+import avatar from "../inariJinja.jpg";
 
 import Footer from "../components/Footer";
 
@@ -28,10 +28,10 @@ const useStyles = makeStyles((theme) => ({
     margin: 0,
   },
   arrow: {
-    color: "tomato",
+    color: "white",
   },
   title: {
-    color: "tan",
+    color: "skyBlue",
   },
   menuSliderContainer: {
     width: 250,
@@ -63,7 +63,7 @@ const Navbar = () => {
 
   const sideList = () => (
     <Box className={classes.menuSliderContainer} component="div">
-      <Avatar className={classes.avatar} src={avatar} alt="Mahmudul Alam" />
+      <Avatar className={classes.avatar} src={avatar} alt="Nicholas Hyman" />
       <Divider />
       <List>
         {menuItems.map((item, i) => (

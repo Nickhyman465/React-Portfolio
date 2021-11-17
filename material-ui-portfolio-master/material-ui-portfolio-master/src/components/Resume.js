@@ -114,14 +114,14 @@ const Resume = () => {
   return (
     <Box component="header" className={classes.mainContainer}>
       <Typography variant="h4" align="center" className={classes.heading}>
-        Working Experience
+        Resume
       </Typography>
       <Box component="div" className={classes.timeLine}>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2013
+          2016-19
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -129,20 +129,19 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            web design
+            General Manager
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Campus Grounds Coffee Shop
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Ran day-to-day operations while troubleshooting any issues that came uppercase
+            I hired, recruited, and trained new staff members each year. Actively communicated
+            with local businesses to procure new merchandise.
           </Typography>
         </Box>
         <Typography
